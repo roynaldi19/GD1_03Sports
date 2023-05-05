@@ -41,8 +41,7 @@ class NewsDetailsFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val binding = FragmentSportsNewsBinding.bind(view)
 
-        // Attach an observer on the currentSport to update the UI automatically when the data
-        // changes.
+
         sportsViewModel.currentSport.observe(this.viewLifecycleOwner) {
             binding.titleDetail.text = getString(it.titleResourceId)
             binding.sportsImageDetail.load(it.sportsImageBanner)

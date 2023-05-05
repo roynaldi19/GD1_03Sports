@@ -16,7 +16,6 @@
 
 package com.roynaldi19.gd1_03sports.data
 
-
 import com.roynaldi19.gd1_03sports.R
 import com.roynaldi19.gd1_03sports.model.Sport
 
