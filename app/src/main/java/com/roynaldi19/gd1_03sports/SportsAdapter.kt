@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.roynaldi19.android.sports
+package com.roynaldi19.gd1_03sports
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -23,8 +23,8 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.roynaldi19.android.sports.databinding.SportsListItemBinding
-import com.roynaldi19.android.sports.model.Sport
+import com.roynaldi19.gd1_03sports.databinding.SportsListItemBinding
+import com.roynaldi19.gd1_03sports.model.Sport
 
 class SportsAdapter(private val onItemClicked: (Sport) -> Unit) :
     ListAdapter<Sport, SportsAdapter.SportsViewHolder>(DiffCallback) {

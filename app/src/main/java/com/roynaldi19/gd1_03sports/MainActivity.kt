@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.roynaldi19.android.sports
+package com.roynaldi19.gd1_03sports
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -23,7 +23,7 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupWithNavController
-import com.roynaldi19.android.sports.databinding.ActivityMainBinding
+import com.roynaldi19.gd1_03sports.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

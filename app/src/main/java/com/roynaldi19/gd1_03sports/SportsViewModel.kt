@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.roynaldi19.android.sports
+package com.roynaldi19.gd1_03sports
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.roynaldi19.android.sports.data.SportsData
-import com.roynaldi19.android.sports.model.Sport
+import com.roynaldi19.gd1_03sports.data.SportsData
+import com.roynaldi19.gd1_03sports.model.Sport
 
 class SportsViewModel : ViewModel() {
 

@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.roynaldi19.android.sports.model
+package com.roynaldi19.gd1_03sports.model
 
-import com.roynaldi19.android.sports.R
+import com.roynaldi19.gd1_03sports.R
 
 /**
  * Data model for each row of the RecyclerView

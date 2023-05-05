@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.roynaldi19.android.sports
+package com.roynaldi19.gd1_03sports
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,11 +23,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import coil.load
-import com.roynaldi19.android.sports.databinding.FragmentSportsNewsBinding
+import com.roynaldi19.gd1_03sports.databinding.FragmentSportsNewsBinding
 
-/**
- * A simple [Fragment] subclass as the second destination in the navigation.
- */
+
 class NewsDetailsFragment : Fragment() {
 
     private val sportsViewModel: SportsViewModel by activityViewModels()

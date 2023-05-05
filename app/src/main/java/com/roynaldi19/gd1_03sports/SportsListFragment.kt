@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.roynaldi19.android.sports
+package com.roynaldi19.gd1_03sports
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,11 +23,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
-import com.roynaldi19.android.sports.databinding.FragmentSportsListBinding
+import com.roynaldi19.gd1_03sports.databinding.FragmentSportsListBinding
 
-/**
- * A simple [Fragment] subclass as the default destination in the navigation.
- */
+
 
 class SportsListFragment : Fragment() {
 

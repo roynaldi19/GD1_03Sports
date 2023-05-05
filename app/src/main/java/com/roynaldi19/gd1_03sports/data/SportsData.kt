@@ -14,14 +14,12 @@
  * limitations under the License.
  */
 
-package com.roynaldi19.android.sports.data
+package com.roynaldi19.gd1_03sports.data
 
-import com.roynaldi19.android.sports.R
-import com.roynaldi19.android.sports.model.Sport
 
-/**
- * Sports data
- */
+import com.roynaldi19.gd1_03sports.R
+import com.roynaldi19.gd1_03sports.model.Sport
+
 object SportsData{
     fun getSportsData(): ArrayList<Sport> {
         return arrayListOf(
